@@ -1,0 +1,293 @@
+
+
+.page{
+    background-color: #2A2C2F;
+    min-width: 1184px; 
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 58px;
+    margin:0 auto;
+}
+/*                  -----Шапка-----*/
+    .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 52px;
+    padding-top: 28px;
+}
+.header__link{
+color: #fff;
+font-size: 24px;
+line-height: 28px;
+text-decoration: none;
+margin-top: 48px;
+margin-right: 18px;
+}
+.header__link:hover{
+text-decoration:underline;
+}
+.header__link:last-child{
+    margin: 0;
+}
+/*                -----Контент main----*/
+.content{
+    margin: 0 auto;
+    max-width: 984px;
+}
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lead__title{
+    max-width: 720px; 
+    font-size: 96px;
+    line-height: 100px;
+    padding: 52px 0px 32px 0px ;
+    text-align: center;
+    font-weight: 900;
+    margin: 0; 
+}
+.lead__subtitle{
+    max-width: 640px;
+    min-height: 72px;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 64px; 
+}
+.lead__image{ 
+    background-image: url(./images/lead__image.png);
+    width: 100%;
+    min-height: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: cover;
+}
+.vector_line{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translate(0%,-32%);
+  }
+.lead__caption{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    margin: 8px 0px 92px;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+.content__intro{
+    max-width: 690px;
+    margin: 0;
+}
+.intro__title{
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    margin: 0;
+}
+.intro__text{
+font-size: 16px;
+line-height: 26px;
+margin: 40px 0px 33px;
+}
+.intro__list{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    list-style:none;
+    margin-bottom: 92px;
+}
+.photo-grid{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 16px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.photo-grid__item{
+  width: 284px;
+  height: 213px;
+}
+.places{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;;
+    max-width: 984px;
+    row-gap: 48px;
+    column-gap: 20px;
+    
+}
+.place__title{
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}
+.place__image{
+    max-width: 460px;
+    max-height: 460px;
+    object-fit: cover;
+}
+.place__website{
+ 
+}
+.place__paragraph{
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 26px;
+    margin: 0;
+}
+.cover{
+    min-height: 740px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 92px;
+    text-align: center; 
+    background-image: url(./images/cover__background.png);
+}
+.cover__title{
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+    
+
+}
+.cover__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+    margin: 0;
+    padding-top: 32px;
+}
+.cover__background{
+    background-image: url(./images/cover__background.png);
+}
+.cover__overlay{
+    background-image: url(./images/cover__background.png);
+  
+}
+.footer{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:92px 0px 24px;
+}
+.footer__link{
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.footer__author{
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/*Просто тренировочно делал для себя*/
+
+/*ВЕКТОР (не добавлял точки еще)
+.vector_line{
+  position: absolute;
+  top: 21%;
+  left: 4%;
+}
+.lead__vector-info{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: end;
+    list-style: none;
+}
+.vector__city{
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 85px;
+    text-align: center;
+}
+.vector__city-01{
+    top: 38%;
+    left: 2%;
+}
+.vector__city-02{
+    top: 14%;
+    left: 8%;
+}
+.vector__city-03{
+    top: 43%;
+    left: 19%;
+}
+.vector__city-04{
+    top: 47%;
+    left: 28%;
+}
+.vector__city-05{
+    top: 35%;
+    left: 37%;
+}
+.vector__city-06{
+    top: 41%;
+    left: 42%;
+}
+.vector__city-07{
+    top: 48%;
+    left: 55%;
+}
+.vector__city-08{
+    top: 36%;
+    left: 56%;
+}
+.vector__city-09{
+    top: 43%;
+    left: 63%;
+}
+.vector__city-010{
+    top: 47%;
+    left: 72%;
+}
+.vector__city-011{
+    top: 32%;
+    left: 84%;
+}
+.vector__city-012{
+    top: 43%;
+    left: 91%;
+}
+/*--------------HTML-------------------------
+
+
+     <!--<div>
+                     <img  class="vector_line" src="./images/logo/Vector 2.8 (Stroke).svg" alt="вектор"> 
+                            <ul class="lead__vector-info">
+                              <li class="vector__city vector__city-01">Псков</li>
+                              <li class="vector__city vector__city-02">Великий Новгород</li>
+                              <li class="vector__city vector__city-03">Тверь</li>
+                              <li class="vector__city vector__city-04">Ярославль</li>
+                              <li class="vector__city vector__city-05">Мантурово</li>
+                              <li class="vector__city vector__city-06">Котельнич-1</li>
+                              <li class="vector__city vector__city-07">Глазов</li>
+                              <li class="vector__city vector__city-08">Пермь</li>
+                              <li class="vector__city vector__city-09">Тюмень</li>
+                              <li class="vector__city vector__city-010">Омск</li>
+                              <li class="vector__city vector__city-011">Красноярск</li>
+                              <li class="vector__city vector__city-012">Улан-Удэ</li>
+                            </ul>
+                     </div>-->
+/*-------------------------------------------------------------------------------------------*
