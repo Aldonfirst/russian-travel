@@ -1,0 +1,21 @@
+.footer__link{
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 18px;
+}
+/*------------------------------Медиа---------*/
+@media(min-width:1281px){
+  .footer__link{
+    font-size: 26px;
+  }
+}
+@media (max-width:600px){
+  .footer__link{
+    margin:0 0 39px 0;
+    font-size: calc(24px + (16 - 24) * ((100vw - 320px) / (600 - 320)));;;
+  }
+}
+

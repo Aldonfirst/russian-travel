@@ -1,0 +1,16 @@
+.place__website{
+  color:#fff;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+ }
+/*----------------------------------Медиа----------*/
+@media (max-width:320px){
+  .place__website{
+    padding-left:16px;
+    padding-right: 16px;
+  }
+}

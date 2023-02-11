@@ -1,0 +1,12 @@
+.cover{
+  position: relative;
+  max-width: 1184px;
+  margin: 0 auto;
+}
+/*---------------------КингСайз---------*/
+@media(min-width:1281px){
+  .cover {
+    max-width: 100vw;
+  }
+}
+

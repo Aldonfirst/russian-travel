@@ -1,0 +1,18 @@
+.intro__text{
+  font-size: 16px;
+  line-height: 26px;
+  margin: 40px 0px 33px;
+  }
+  /*Медиа*/
+@media(min-width:1281px){
+  .intro__text{
+    font-size: calc(1px + (16 + 1) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 1.5;
+  }
+}
+@media (max-width:1024px){
+  .intro__text{
+    margin: 40px 0px 30px;
+    }
+}
+

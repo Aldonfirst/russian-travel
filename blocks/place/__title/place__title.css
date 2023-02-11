@@ -1,0 +1,27 @@
+.place__title{
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+/*-------------------------------------Медиа---------------*/
+@media (max-width:1024px){
+  .place__title{
+    font-size: calc(42px + (76 - 42) * ((100vw - 768px) / (1024 - 768)));
+    letter-spacing: 0;
+    }
+}
+@media (max-width:768px){
+  .place__title{ /*от 42 шрифт до 32*/
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: 46px;
+    font-weight: 900;
+  padding-right: 10px;
+    }
+}
+@media (max-width:320px){
+  .place__title{
+    padding-left:16px;
+    padding-right: 16px;
+  }
+}

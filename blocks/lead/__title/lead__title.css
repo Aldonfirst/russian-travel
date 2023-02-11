@@ -1,0 +1,28 @@
+.lead__title{
+  max-width: 720px;
+  font-size:96px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 900;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+/*-----------------------------------------Медиа---------------------*/
+@media(min-width:1281px){
+  .lead__title{
+    max-width: 60vw;
+    font-size: calc(1px + (96 + 1) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+@media (max-width:768px){
+  .lead__title{
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
+    padding-bottom: 29px;
+    line-height: calc(44px + (100 - 44) * ((100vw - 320px) / (768 - 320)));;
+  }
+}
+@media (max-width:320px){
+  .lead__title{
+    padding-bottom: 15px;
+  }
+}

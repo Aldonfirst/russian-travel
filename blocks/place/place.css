@@ -1,0 +1,34 @@
+.place{
+  display: grid;
+  grid-template-columns:1fr 1.05fr;
+  grid-auto-flow: row;
+  gap:48px 40px;
+}
+/*--------------------------------Медиа--------------------------*/
+@media(min-width:1281px){
+  .place{
+    grid-template-columns:1fr;
+    justify-items: center;
+    border: 1px solid #fff;
+    gap: 20px;
+  }
+}
+@media (max-width:1024px){
+  .place{
+    grid-template-columns:1fr fit-content(49%);
+    gap:46px 32px;
+  }
+}
+@media (max-width:768px){
+  .place{
+    grid-template-columns:fit-content(47.2%) 1fr;
+    gap:47px 30px;
+  }
+}
+@media (max-width:600px){
+  .place{
+    grid-template-columns:1fr;
+    gap:28px 0;
+  }
+}
+

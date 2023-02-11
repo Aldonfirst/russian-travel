@@ -2,13 +2,11 @@
 @supports (font-variation-settings: normal) {
  :root { font-family: 'Inter var', sans-serif; }
 }
-
 .page{
   color: #fff;
   background-color: #2A2C2F;
   padding-left:48px;
   padding-right: 48px;
-
 }
 /*--------------------------------------Шапка-----------------------*/
     .header{
@@ -65,7 +63,6 @@ margin:0 auto;
     object-fit: cover;
     position: relative;
 }
-
 .lead__caption{
     font-size: 10px;
     line-height: 20px;
@@ -102,7 +99,6 @@ margin: 40px 0px 33px;
     display: grid;
     grid-template-columns:repeat(auto-fill, minmax(284px,1fr));
     gap: 16px;
-
 }
 .photo-grid__item{
     width: 100%;

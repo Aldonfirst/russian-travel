@@ -1,0 +1,17 @@
+.lead__caption{
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (max-width:768px){
+  .lead__caption{
+    padding-left: 26px;
+  }
+}
+@media (max-width:320px){
+  .lead__caption{
+    padding-left: 17px;
+  }
+}

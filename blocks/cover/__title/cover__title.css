@@ -1,0 +1,21 @@
+.cover__title{
+  font-size: 72px;
+  line-height:76px;
+  max-width: 560px;
+  margin: 0;
+}
+/*--------------------------------------Медиа-------------*/
+@media(min-width:1281px){
+  .cover__title{
+    max-width: 90vw;
+    font-size: 80px;
+  }
+}
+@media (max-width:600px){
+  .cover__title{
+    font-size:calc(32px + (72 - 32) * ((100vw - 320px) / (600 - 320)));
+    max-width: calc(250px + (560 - 250) * ((100vw - 320px) / (600 - 320)));
+    line-height:calc(35px + (76 - 35) * ((100vw - 320px) / (600 - 320)));;
+  }
+}
+

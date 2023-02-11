@@ -1,0 +1,26 @@
+.cover__subtitle{
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 360px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+/*------------------------------Медиа----------------------------------*/
+@media(min-width:1281px){
+  .cover__subtitle{
+    font-size: 30px;
+    max-width: 50%;
+  }
+}
+@media (max-width:600px){
+  .cover__subtitle{
+    font-size:calc(14px + (22 - 14) * ((100vw - 320px) / (600 - 320)));
+  }
+}
+@media (max-width:320px){
+  .cover__subtitle{
+    line-height: 16px;
+    max-width: 265px;
+    padding-top: 16px;
+  }
+}
