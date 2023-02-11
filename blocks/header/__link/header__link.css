@@ -4,12 +4,14 @@
   text-decoration: none;
   margin-right: 15px;
   }
+  /*-----------------------------отнял отступ--------*/
   .header__link:last-child{
     margin: 0;
 }
-@media(min-width:1281px){
+/*-----------------------------------Медиа--------------------*/
+@media (min-width:1281px){
   .header__link{
-    font-size: calc(1px + (24 + 1) * ((100vw - 320px) / (1280 - 320))) ;
+    font-size: calc(1px + (24 + 1) * ((100vw - 320px) / (1280 - 320)));
     margin-right: 30px;
   }
 }
