@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествие по России</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="body">
@@ -16,8 +13,8 @@
     <header class="header container">
 <img class="header__logo" src="./images/logo/__logo.svg" alt="Лого Россия">
 <div class="header__links">
-    <a class="header__link header__link-active" href="#">Ru</a>
-    <a class="header__link" href="#">En</a>
+    <a class="link header__link header__link-active" href="#">Ru</a>
+    <a class="link header__link header__link-active" href="#">En</a>
 </div>
     </header>
     <!--...................................................контент......................-->
@@ -36,15 +33,15 @@
                 Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
-            <ol class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
-            </ol>
+            <ul class="intro__list">
+                <li>Часовых поясов<span class="intro__list_number">&nbsp;11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО<span class="intro__list_number">&nbsp;12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО<span class="intro__list_number">&nbsp;16</span></li>
+                <li>Природных заповедников<span class="intro__list_number">&nbsp;105</span></li>
+                <li>Аэропортов<span class="intro__list_number">&nbsp;241</span> </li>
+            </ul>
         </section>
-        <div class="photo-grid container">
+        <section class="photo-grid container">
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item.png" alt="горы">
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item-1.png" alt="возвышенность">
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item-2.png" alt="гора">
@@ -57,14 +54,14 @@
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item-9.png" alt="тюки_сена">
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item-10.png" alt="горы_зимние">
 <img class="photo-grid__item" src="./images/image_for_photo-grid/__item-11.png" alt="вид_из_вагона">
-        </div>
+        </section>
         <section class="places container">
         <div class="place">
             <h2 class="place__title">Куршская коса</h2>
-            <ul class="place__website">
-            <li><p class="place__url-heading">Url</p></li>
-            <li><a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a></li>
-            </ul>
+            <div class="place__website">
+            <p class="place__url-heading">Url</p>
+            <a href="http://park-kosa.ru" class="link place__link">park-kosa.ru</a>
+            </div>
             <img src="./images/places_image/Kyrskaya_cosa.png" alt="Куршская_Коса" class="place__image">
         <div>
             <p class="place__paragraph">
@@ -79,10 +76,10 @@
         </div>
         <div class="place">
             <h2 class="place__title">Кольский</h2>
-            <ul class="place__website">
-              <li><p class="place__url-heading">Url</p></li>
-              <li><a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a></li>
-            </ul>
+            <div class="place__website">
+              <p class="place__url-heading">Url</p>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="link place__link">National Geographic</a>
+            </div>
             <img src="./images/places_image/kolskiy.png" alt="Кольский_полуостров" class="place__image">
             <div>
             <p class="place__paragraph">
@@ -99,10 +96,10 @@
         </div>
         <div class="place">
             <h2 class="place__title">Алтай</h2>
-            <ul class="place__website">
-              <li><p class="place__url-heading">Url</p></li>
-            <li><a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a></li>
-            </ul>
+            <div class="place__website">
+              <p class="place__url-heading">Url</p>
+              <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="link place__link">YouTube</a>
+            </div>
             <img src="./images/places_image/Altay.png" alt="Алтай" class="place__image">
             <div>
             <p class="place__paragraph">
@@ -120,10 +117,10 @@
         </div>
         <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
-            <ul class="place__website">
-              <li><p class="place__url-heading">Url</p></li>
-            <li><a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a></li>
-            </ul>
+            <div class="place__website">
+              <p class="place__url-heading">Url</p>
+              <a href="https://vk.com/baikalmile" class="link place__link">https://vk.com/baikalmile</a>
+            </div>
             <img src="./images/places_image/baikal.png" alt="Зимний_Байкал" class="place__image">
             <div>
             <p class="place__paragraph">
@@ -134,45 +131,45 @@
                 Конечно, это всё так.
                 Но Байкал ещё идеальное место для соревнований по скийорингу.
                 Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду.
-                В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+                В марте 2019 года на фестивале «Байкальская миля» был &nbsp;поставлен мировой рекорд — 197.011 км/ч.
             </p>
             </div>
         </div>
         <div class="place">
-            <h2 class=" place__title">Карелия</h2>
-            <ul class="place__website">
-              <li><p class="place__url-heading">Url</p></li>
-            <li><a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a></li>
-            </ul>
+            <h2 class="place__title">Карелия</h2>
+            <div class="place__website">
+              <p class="place__url-heading">Url</p>
+              <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+            </div>
             <img src="./images/places_image/Karelia.png" alt="Карелия" class="place__image">
             <div>
-            <p class="place__paragraph">
+              <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
                 В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                 в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
-            </p>
+              </p>
             </div>
         </div>
         </section>
-        <section class="cover">
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-              <img class="cover__background" src="./images/cover__background.png" alt="трансиб">
-          <div class="cover__content">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        </div>
-        </a>
-            <div class="cover__overlay"></div>
-        </section>
+    </section>
+    <section class="cover">
+        <div class="cover__background"></div>
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+    </a>
+    </section>
         </main>
         <!--.......................................Подвал.............................-->
     <footer class="footer container">
-        <nav class="footer__links">
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        <nav >
+          <ul class="footer__links">
+            <li><a class="link footer__link" href="https://yandex.ru/maps">Карты</a></li>
+            <li><a class="link footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li><a class="link footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li><a class="link footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+            <li><a class="link footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+          <ul>
         </nav>
         <p class="footer__author">&copy;Алдошкин Дмитрий</p>
     </footer>

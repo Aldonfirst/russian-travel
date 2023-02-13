@@ -1,5 +1,29 @@
 .cover__link{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #fff;
+  text-align:center;
+  height: 100%;
   }
+.cover__link:before{
+  content: '';
+  display: block;
+  position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background-color: #2A2C2F;
+ overflow: hidden;
+  width: 100%;
+  opacity: 0;
+}
+.cover__link:hover:before{
+opacity: 0.8;
 
+}

@@ -1,3 +1,6 @@
 .header__link-active{
-  text-decoration:underline;
+  text-decoration:none;
+  }
+  .header__link-active:hover{
+    text-decoration: underline;
   }

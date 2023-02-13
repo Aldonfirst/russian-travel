@@ -1,10 +1,10 @@
 .page{
+  font-family: 'Inter','Arial',sans-serif;
   color: #fff;
   background-color: #2A2C2F;
   padding-left:48px;
   padding-right: 48px;
 }
-
 @media (max-width:1024px){
   .page{
     padding:0;

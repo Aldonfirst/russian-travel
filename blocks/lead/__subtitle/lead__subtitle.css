@@ -11,6 +11,8 @@
   .lead__subtitle{
     max-width: 100vw;
     font-size: calc(1px + (30 + 1) * ((100vw - 320px) / (1280 - 320)));
+    line-height: calc(1px + (36 + 1) * ((100vw - 320px) / (1280 - 320)));
+    padding-bottom: 100px;
   }
 }
 @media (max-width:1024px){

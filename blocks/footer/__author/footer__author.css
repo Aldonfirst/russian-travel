@@ -5,6 +5,8 @@
 /*-----------------------Медиа--------------*/
 @media (max-width:320px){
   .footer__author{
-    padding-top: 8px;
+    padding-top: 12px;
+    padding-left: 2px;
+    letter-spacing: 2px;
   }
 }

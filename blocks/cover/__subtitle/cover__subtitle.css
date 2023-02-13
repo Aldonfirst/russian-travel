@@ -2,14 +2,21 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
-  margin: 0 auto;
+  margin: 0 ;
   padding-top: 32px;
+  z-index: 2;
 }
 /*------------------------------Медиа----------------------------------*/
 @media(min-width:1281px){
   .cover__subtitle{
     font-size: 30px;
     max-width: 50%;
+    line-height: 40px;
+  }
+}
+@media (max-width:768px){
+  .cover__subtitle{
+   padding-top: 37px;
   }
 }
 @media (max-width:600px){
@@ -21,6 +28,6 @@
   .cover__subtitle{
     line-height: 16px;
     max-width: 265px;
-    padding-top: 16px;
+    padding-top: 18px;
   }
 }

@@ -16,7 +16,7 @@
 @media (max-width:1024px){
   .place{
     grid-template-columns:1fr fit-content(49%);
-    gap:46px 32px;
+    gap:47px 33px;
   }
 }
 @media (max-width:768px){
@@ -28,7 +28,7 @@
 @media (max-width:600px){
   .place{
     grid-template-columns:1fr;
-    gap:28px 0;
+    gap:30px 0;
   }
 }
 

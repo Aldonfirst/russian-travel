@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 86px auto 0;
+  margin: 90px auto 0;
   padding-bottom: 24px;
 }
 @media (max-width:600px){
   .footer{
     flex-direction: column;
-    margin-top: 65px;
+    margin-top: 71px;
     align-items: flex-start;
   }
 }
