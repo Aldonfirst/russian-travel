@@ -8,22 +8,41 @@
   text-decoration: none;
   color: #fff;
   text-align:center;
-  height: 100%;
+  min-height: 740px;
+  width: 100%;
+  background-image: url(../../../images/cover__background.png);
+  background-size: cover;
+  background-position: center;
   }
 .cover__link:before{
   content: '';
   display: block;
   position: absolute;
- top: 0;
- left: 0;
- bottom: 0;
- right: 0;
- background-color: #2A2C2F;
- overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  overflow: hidden;
   width: 100%;
-  opacity: 0;
+  opacity: 0.3;
 }
 .cover__link:hover:before{
-opacity: 0.8;
-
+  opacity: 0.8;
+}
+/*-------------------------------Медиа-----------------------------*/
+@media (max-width:1024px){
+.cover__link{
+  min-height: 640px;
+  }
+}
+@media (max-width:768px){
+.cover__link{
+  min-height:480px;
+  }
+}
+@media (max-width:320px){
+.cover__link{
+  min-height:200px;
+  }
 }

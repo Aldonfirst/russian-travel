@@ -4,6 +4,7 @@
   max-width: 560px;
   margin: 0;
   z-index: 2;
+  font-weight: 900;
 }
 /*--------------------------------------Медиа-------------*/
 @media(min-width:1281px){

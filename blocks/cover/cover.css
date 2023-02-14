@@ -2,7 +2,6 @@
   position: relative;
   max-width: 1184px;
   margin: 0 auto;
-  min-height:720px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,18 +13,4 @@
   }
 }
 
-@media (max-width:1024px){
-  .cover{
-    min-height: 640px;
-  }
-}
-@media (max-width:768px){
-  .cover{
-    min-height:480px;
-  }
-}
-@media (max-width:320px){
-  .cover{
-    min-height:200px;
-  }
-}
+
