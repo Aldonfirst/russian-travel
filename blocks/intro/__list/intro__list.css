@@ -6,10 +6,5 @@
   margin:0;
   padding: 0;
 }
-@media(min-width:1281px){
-  .intro__list{
-    font-size: calc(1px + (12 + 1) * ((100vw - 320px) / (1280 - 320)));
-    line-height: 1.5;
-  }
-}
+
 

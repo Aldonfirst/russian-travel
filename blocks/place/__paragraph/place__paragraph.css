@@ -9,14 +9,6 @@
   padding-bottom: 0;
 }
 /*---------------------------------Медиа-----------------*/
-@media(min-width:1281px){
-  .place__paragraph{
-    padding: 25px 50px 20px;
-    font-size:calc(1px + (18 + 1) * ((100vw - 320px) / (1280 - 320)));
-    line-height: 2;
-
-  }
-}
 @media (max-width:768px){
   .place__paragraph{
     font-size: 16px;

@@ -6,11 +6,6 @@
   margin-right: 19px;
 }
 /*------------------------------Медиа---------*/
-@media(min-width:1281px){
-  .footer__link{
-    font-size: 26px;
-  }
-}
 @media (max-width:600px){
   .footer__link{
     margin-right: 0;

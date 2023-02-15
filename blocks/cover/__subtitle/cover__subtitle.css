@@ -7,13 +7,6 @@
   z-index: 2;
 }
 /*------------------------------Медиа----------------------------------*/
-@media(min-width:1281px){
-  .cover__subtitle{
-    font-size: 30px;
-    max-width: 50%;
-    line-height: 40px;
-  }
-}
 @media (max-width:768px){
   .cover__subtitle{
    padding-top: 37px;

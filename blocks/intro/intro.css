@@ -3,13 +3,7 @@
   padding: 92px 100px 92px 100px;
   margin: 0;
 }
-@media(min-width:1281px){
-  .intro{
-    max-width: 90vw;
-    padding:50px 150px;
-    text-align: center;
-  }
-}
+/*-------------------------------media-------------------*/
 @media (max-width:1024px){
   .intro{
     padding-left:48px;

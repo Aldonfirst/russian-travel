@@ -4,12 +4,7 @@
   font-weight: 900;
   margin: 0;
 }
-@media(min-width:1281px){
-  .intro__title{
-    font-size: calc(1px + (54 + 1) * ((100vw - 320px) / (1280 - 320)));
-    line-height: 1.5;
-  }
-}
+/*--------------------------------media-------------------*/
 @media (max-width:768px){
   .intro__title{
     font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));

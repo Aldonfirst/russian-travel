@@ -8,14 +8,6 @@
   font-weight: 900;
 }
 /*-----------------------------------------Медиа---------------------*/
-@media(min-width:1281px){
-  .lead__title{
-    max-width: 60vw;
-    padding-bottom: 100px;
-    font-size: calc(1px + (96 + 1) * ((100vw - 320px) / (1280 - 320)));
-    line-height:calc(1px + (100 + 1) * ((100vw - 320px) / (1280 - 320)));
-  }
-}
 @media (max-width:768px){
   .lead__title{
     font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (768 - 320)));
